@@ -8,7 +8,7 @@ export default defineConfig({
     port : 3000,
     proxy:{
       "/api" : {
-        target : "https://facebook-p4gz.onrender.com",
+        target : "https://facebook-p4gz.onrender.com/",
         changeOrigin : true
       }
     }
