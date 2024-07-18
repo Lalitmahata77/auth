@@ -56,12 +56,12 @@ const onChange = (e) =>{
           </div>
      
          
-          <button className="text-white border-0 py-2 px-8 focus:outline-none font-medium  rounded text-xl bg-blue-600 " >{isLoading ? "Registering.." : "Register"}</button>
+          <button className="text-white border-0 py-2 px-8 focus:outline-none font-medium  rounded text-xl bg-blue-600 " >{isLoading ? "Loging.." : "Log In"}</button>
           </form>
           <p className="text-sm text-blue-500 py-5 text-center">Forgotten password?</p>
           <hr className="my-5" />
           <button className="text-white  border-0 py-2 px-8 focus:outline-none font-medium  rounded text-xl bg-green-500 " >
-            <Link to="/login">Already have an account</Link></button>
+            <Link to="/login">Create New Account</Link></button>
         </div>
         
         <div className="lg:w-2/6 md:w-1/2 bg-transparent rounded-lg p-8 flex flex-col md:ml-auto w-full mt-3 md:mt-0">
