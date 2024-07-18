@@ -26,7 +26,7 @@ const Register = () => {
 const submitHandler =(e)=>{
 e.preventDefault()
 const registerData ={
-    name,
+  
     email,
     password,
 }
