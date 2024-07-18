@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const authApi = createApi({
     reducerPath : "authApi",
-    baseQuery : fetchBaseQuery({baseUrl : "/https://facebook-p4gz.onrender.com/v2"}),
+    baseQuery : fetchBaseQuery({baseUrl : "/https://facebook-p4gz.onrender.com/api/v2"}),
     endpoints : (builder)=>({
         register : builder.mutation({
             query(body) {
