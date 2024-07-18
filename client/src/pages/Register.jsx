@@ -12,7 +12,7 @@ const Register = () => {
         email : "",
         password : ""
     })
-    const {name, email, password} = user
+    const { email, password} = user
   const[register, {isLoading, error, data}] =  useRegisterMutation();
   const {isAuthenticated} = useSelector((state)=> state.auth)
   useEffect(()=>{

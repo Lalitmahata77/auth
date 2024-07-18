@@ -8,7 +8,7 @@ dotenv.config({path : "server/config/config.env"})
 const PORT = process.env.PORT || 4000
 app.use(express.json())
 app.use(cookieParser())
-
+// app.use(express.static())
 import userRouter from "./route/userRoute.js"
 app.use("/api/v2", userRouter)
 app.listen(PORT, ()=>{
