@@ -47,9 +47,7 @@ const onChange = (e) =>{
         </div>
         <div className="lg:w-2/6 md:w-1/2 bg-white shadow-lg rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
       <form action="" onSubmit={submitHandler}>
-      <div className="relative mb-4">
-            <input type="name"  name="name" placeholder="Username" className="w-full  bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200  outline-none text-lg text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out " value={name} onChange={onChange}/>
-          </div>
+     
           <div className="relative mb-4">
             <input type="email"  name="email" placeholder="Email address or phone number" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-lg outline-none  text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" value={email} onChange={onChange}/>
           </div>

@@ -21,7 +21,7 @@ export const register = async(req,res)=>{
             const token = sendToken(user, 200, res)
             res.status(200).json({
                 _id : user._id,
-                name : user.name,
+              
                 email : user.email,
                 password :user.password,
               
